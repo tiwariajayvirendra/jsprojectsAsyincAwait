@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.xpose,.ypose{
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+}
+h4{
+    position: absolute;
+    top:-45%;
+    left: 20%;
+    
+}
+#xpose-value,#ypose-value{
+    font-size:3rem;
+    font-weight: bold;
+}
